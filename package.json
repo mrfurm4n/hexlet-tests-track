@@ -1,6 +1,26 @@
 {
   "type": "module",
   "scripts": {
-    "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
+    "test": "node --experimental-modules --no-warnings __tests__/capitalize.test.js"
+  },
+  "name": "hexlet-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrfurm4n/hexlet-tests-track.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrfurm4n/hexlet-tests-track/issues"
+  },
+  "homepage": "https://github.com/mrfurm4n/hexlet-tests-track#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.2.2"
   }
 }
