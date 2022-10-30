@@ -5,10 +5,9 @@ beforeAll(() => {
     string = 'hello';
 })
 
-test(
-    'capitalize',
-    () => {
+describe('capitalize', () => {
+    test('main', () => {
         expect(capitalize(string)).toEqual('Hello');
         expect(capitalize('')).toEqual('');
-    }
-)
+    });
+});
